@@ -46,6 +46,7 @@ import aisLogo from "./assets/education_logo/Ais_logo.png";
 import weatherAppLogo from "./assets/work_logo/weatherAppLogo.png";
 import snakeGameLogo from "./assets/work_logo/snakeGameLogo.png";
 import wanderlustLogo from "./assets/work_logo/wanderlustLogo.png";
+import portfolioLogo from "./assets/work_logo/portfolioLogo.png";
 
 
 export const SkillsInfo = [
@@ -193,5 +194,16 @@ export const projects = [
   webapp: "https://major-project-wanderlust-ry5y.onrender.com/listings",
 }
 ,
-
+{
+  id: 3,
+  title: "Personal Portfolio Website",
+  description:
+    "A modern, responsive personal portfolio website built using React.js and Tailwind CSS to showcase projects, technical skills, and professional experience. The portfolio features a clean component-based architecture, smooth navigation, and optimized performance. Designed with a minimal and accessible UI, it provides recruiters and collaborators with a clear overview of my work and an easy way to connect.",
+  image: portfolioLogo,
+  tags: ["HTML", "CSS", "JavaScript", "React JS", "Tailwind CSS"],
+  github:
+    "https://github.com/Deepak-17-code/portfolio",
+  webapp: "https://portfolio-ivory-theta-in9ynl8qzk.vercel.app/",
+}
+,
 ];
