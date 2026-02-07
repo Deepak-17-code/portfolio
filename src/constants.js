@@ -34,14 +34,11 @@ import vercelLogo from "./assets/tech_logo/vercel.png";
 // import csharpLogo from './assets/tech_logo/csharp.png';
 
 // Experience Section Logo's
-import webverseLogo from "./assets/company_logo/webverse_logo.png";
-import agcLogo from "./assets/company_logo/agc_logo.png";
-import newtonschoolLogo from "./assets/company_logo/newtonschool_logo.png";
 import w3grade from "./assets/company_logo/w3grade.png";
 
 // Education Section Logo's
 import glaLogo from "./assets/education_logo/gla_logo.png";
-import bsaLogo from "./assets/education_logo/bsa_logo.png";
+
 import aisLogo from "./assets/education_logo/Ais_logo.png";
 
 // Project Section Logo's
@@ -49,14 +46,7 @@ import aisLogo from "./assets/education_logo/Ais_logo.png";
 import weatherAppLogo from "./assets/work_logo/weatherAppLogo.png";
 import snakeGameLogo from "./assets/work_logo/snakeGameLogo.png";
 import wanderlustLogo from "./assets/work_logo/wanderlustLogo.png";
-import csprepLogo from "./assets/work_logo/cs_prep.png";
-import movierecLogo from "./assets/work_logo/movie_rec.png";
-import taskremLogo from "./assets/work_logo/task_rem.png";
-import npmLogo from "./assets/work_logo/npm.png";
-import webverLogo from "./assets/work_logo/web_dig.png";
-import cmLogo from "./assets/work_logo/cm.png";
-import imagesearchLogo from "./assets/work_logo/image_search.png";
-import removebgLogo from "./assets/work_logo/remove_bg.png";
+
 
 export const SkillsInfo = [
   {
