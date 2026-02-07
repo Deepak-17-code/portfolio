@@ -48,7 +48,6 @@ import snakeGameLogo from "./assets/work_logo/snakeGameLogo.png";
 import wanderlustLogo from "./assets/work_logo/wanderlustLogo.png";
 import portfolioLogo from "./assets/work_logo/portfolioLogo.png";
 
-
 export const SkillsInfo = [
   {
     title: "Frontend",
@@ -133,8 +132,9 @@ export const education = [
     school: "GLA University, Mathura",
     date: "Aug 2023 - July 2027",
     grade: "7.79 CGPA",
-    desc: "I have completed my Bachelor of Technology (B.Tech) in Computer Science and Engineering from GLA University, Mathura. During my academic journey, I built a strong foundation in computer science fundamentals, programming, and software development. My coursework included Data Structures and Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, Software Engineering, and Web Technologies. Through academic projects and hands-on learning, I developed problem-solving skills, logical thinking, and a practical understanding of modern development practices. My experience at GLA University has played a key role in strengthening my technical expertise and preparing me for real-world engineering challenges.",
-    degree: "Bachelor of Technology (B.Tech) – Computer Science and Engineering",
+    desc: "I am currently pursuing my Bachelor of Technology (B.Tech) in Computer Science and Engineering from GLA University, Mathura. Throughout my academic journey, I have been building a strong foundation in computer science fundamentals, programming, and software development. My coursework includes Data Structures and Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, Software Engineering, and Web Technologies.Through academic projects and hands-on learning, I have been developing strong problem-solving skills, logical thinking, and a practical understanding of modern development practices. My ongoing experience at GLA University continues to play a key role in strengthening my technical expertise and preparing me for real-world engineering challenges.",
+    degree:
+      "Bachelor of Technology (B.Tech) – Computer Science and Engineering",
   },
   {
     id: 1,
@@ -158,52 +158,46 @@ export const education = [
 
 export const projects = [
   {
-  id: 0,
-  title: "Weather Forecast App",
-  description:
-    "A modern and responsive React.js weather application that provides real-time weather updates for any location worldwide. Users can search by city name to instantly view current temperature, weather conditions, humidity, wind speed, and forecasts. Powered by a reliable weather API, the app delivers accurate data with a clean and intuitive user interface for a smooth user experience.",
-  image: weatherAppLogo,
-  tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-  github:
-    "https://github.com/Deepak-17-code/REACT-MINI-Project",
-  webapp: "https://react-mini-project-lilac.vercel.app/",
-},
+    id: 0,
+    title: "Weather Forecast App",
+    description:
+      "A modern and responsive React.js weather application that provides real-time weather updates for any location worldwide. Users can search by city name to instantly view current temperature, weather conditions, humidity, wind speed, and forecasts. Powered by a reliable weather API, the app delivers accurate data with a clean and intuitive user interface for a smooth user experience.",
+    image: weatherAppLogo,
+    tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
+    github: "https://github.com/Deepak-17-code/REACT-MINI-Project",
+    webapp: "https://react-mini-project-lilac.vercel.app/",
+  },
 
   {
-  id: 1,
-  title: "Modern Snake Game",
-  description:
-    "A sleek and interactive modern version of the classic Snake game built using pure JavaScript. The game features smooth animations, responsive controls, real-time score tracking, and increasing difficulty as the snake grows. Designed with a clean UI and optimized performance, this project demonstrates strong fundamentals of JavaScript logic, DOM manipulation, and game development concepts.",
-  image: snakeGameLogo,
-  tags: ["HTML", "CSS", "JavaScript"],
-  github:
-    "https://github.com/Deepak-17-code/modern-snake-game",
-  webapp: "https://modern-snake-game-three.vercel.app/",
-}
-,
-  
+    id: 1,
+    title: "Modern Snake Game",
+    description:
+      "A sleek and interactive modern version of the classic Snake game built using pure JavaScript. The game features smooth animations, responsive controls, real-time score tracking, and increasing difficulty as the snake grows. Designed with a clean UI and optimized performance, this project demonstrates strong fundamentals of JavaScript logic, DOM manipulation, and game development concepts.",
+    image: snakeGameLogo,
+    tags: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/Deepak-17-code/modern-snake-game",
+    webapp: "https://modern-snake-game-three.vercel.app/",
+  },
+
   {
-  id: 2,
-  title: "Wanderlust – Airbnb Clone",
-  description:
-    "A full-stack Airbnb-inspired web application that allows users to explore, list, and book travel accommodations. Built without React, the project focuses on strong backend logic and server-side rendering, featuring user authentication, property listings, image uploads, booking management, and secure data handling. This project demonstrates practical experience in building scalable web applications using modern backend technologies and RESTful APIs.",
-  image: wanderlustLogo,
-  tags: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "MongoDB"],
-  github:
-    "https://github.com/Deepak-17-code/Major-Project-WanderLust-/tree/main",
-  webapp: "https://major-project-wanderlust-ry5y.onrender.com/listings",
-}
-,
-{
-  id: 3,
-  title: "Personal Portfolio Website",
-  description:
-    "A modern, responsive personal portfolio website built using React.js and Tailwind CSS to showcase projects, technical skills, and professional experience. The portfolio features a clean component-based architecture, smooth navigation, and optimized performance. Designed with a minimal and accessible UI, it provides recruiters and collaborators with a clear overview of my work and an easy way to connect.",
-  image: portfolioLogo,
-  tags: ["HTML", "CSS", "JavaScript", "React JS", "Tailwind CSS"],
-  github:
-    "https://github.com/Deepak-17-code/portfolio",
-  webapp: "https://portfolio-ivory-theta-in9ynl8qzk.vercel.app/",
-}
-,
+    id: 2,
+    title: "Wanderlust – Airbnb Clone",
+    description:
+      "A full-stack Airbnb-inspired web application that allows users to explore, list, and book travel accommodations. Built without React, the project focuses on strong backend logic and server-side rendering, featuring user authentication, property listings, image uploads, booking management, and secure data handling. This project demonstrates practical experience in building scalable web applications using modern backend technologies and RESTful APIs.",
+    image: wanderlustLogo,
+    tags: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "MongoDB"],
+    github:
+      "https://github.com/Deepak-17-code/Major-Project-WanderLust-/tree/main",
+    webapp: "https://major-project-wanderlust-ry5y.onrender.com/listings",
+  },
+  {
+    id: 3,
+    title: "Personal Portfolio Website",
+    description:
+      "A modern, responsive personal portfolio website built using React.js and Tailwind CSS to showcase projects, technical skills, and professional experience. The portfolio features a clean component-based architecture, smooth navigation, and optimized performance. Designed with a minimal and accessible UI, it provides recruiters and collaborators with a clear overview of my work and an easy way to connect.",
+    image: portfolioLogo,
+    tags: ["HTML", "CSS", "JavaScript", "React JS", "Tailwind CSS"],
+    github: "https://github.com/Deepak-17-code/portfolio",
+    webapp: "https://portfolio-ivory-theta-in9ynl8qzk.vercel.app/",
+  },
 ];
